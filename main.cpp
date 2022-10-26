@@ -3,14 +3,16 @@
 #include <string>
 
 using namespace std;
+#define TEST 1
+
 
 int main()
 {
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    vector<int> msg {TEST, 2, 3};
 
-    for (const string& word : msg)
-    {
-        cout << word << " ";
+    for (const int& word : msg)
+    { 
+        cout << word << endl;
     }
-    cout << endl;
+    
 }
