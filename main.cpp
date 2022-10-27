@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     vector<int> msg {TEST, 2, 3};
-    string temp = "버전을 변경합니다 1차";
+    string temp = "버전을 변경합니다 2차";
 
     for (const int& word : msg)
     { 
